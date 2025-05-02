@@ -5,12 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener('click', () => {
           const icon = btn.querySelector('i');
           icon.classList.add('cart-animate');
-          alert('Added to cart!')
-          setTimeout(() => icon.classList.remove('cart-animate'), 300);
+
+          setTimeout(() => {
+            icon.classList.remove('cart-animate');
+            alert('Added to cart');
+          }, 300);
         });
-      });
-    
-      
+        });
+
       document.querySelectorAll('.like-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           btn.classList.toggle('liked');
