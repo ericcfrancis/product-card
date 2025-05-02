@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener('click', () => {
           const icon = btn.querySelector('i');
           icon.classList.add('cart-animate');
+          alert('Added to cart!')
           setTimeout(() => icon.classList.remove('cart-animate'), 300);
         });
       });
