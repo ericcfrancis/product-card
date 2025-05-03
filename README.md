@@ -23,5 +23,5 @@ A responsive e-commerce product card layout featuring interactive elements like 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/myshop.git
+   git clone https://github.com/your-username/product-card.git
 2. Open index.html in your browser
